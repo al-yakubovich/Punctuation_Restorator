@@ -3,6 +3,9 @@ import numpy as np
 import torch
 from torch.utils.data import TensorDataset, DataLoader
 
+
+#
+
 def load_file(filename):
     with open(filename, 'r', encoding="utf8", errors="ignore") as f:  # , encoding='utf-8'
         data = f.readlines()
